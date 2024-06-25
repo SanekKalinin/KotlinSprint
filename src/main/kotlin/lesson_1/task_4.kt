@@ -1,12 +1,12 @@
 package org.example.lesson_1
 
 fun main() {
-    val length: ULong = 40_868_600_000U //–расстояние, которое пролетел Гагарин пока был в космосе в миллиметрах;
-    val age: UByte = 27U
+    val length: Long = 40_868_600_000
+    val age: Byte = 27
     val partOfDay: Float = 0.075F
-    val seconds: UShort = 6480U
+    val seconds: Short = 6480
     val partOfYear: Double = 2.0547945205479453E-4
-    val apogee: UInt = 327000U
+    val apogee: Int = 327000
 
     println("расстояние, которое пролетел Гагарин пока был в космосе в миллиметрах $length")
     println("возраст Гагарина на момент полета (целых лет) $age")
