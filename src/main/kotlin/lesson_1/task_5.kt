@@ -7,5 +7,5 @@ fun main() {
     val minutes = fullMinutes % 60
     val hours = fullMinutes / 60
 
-    println("Гагарин провел в космосе ${String.format("%02d", hours)}:${String.format("%02d", minutes)}:${String.format("%02d", seconds)}")
+    println("Гагарин провел в космосе ${"%02d:%02d:%02d".format(hours, minutes, seconds)}")
 }
