@@ -1,12 +1,11 @@
 package org.example.lesson_2
 
-const val crystalOre = 7
-const val ironOre = 11
-const val buff = 20
+const val BUFF = 20
 
 fun main() {
+    val crystalOre = 7
+    val ironOre = 11
 
-    println("Количество бонусной кристалической руды - ${buff * crystalOre / 100}")
-    println("Количество бонусной железной руды - ${buff * ironOre / 100}")
-
+    println("Количество бонусной кристалической руды - ${BUFF * crystalOre / 100}")
+    println("Количество бонусной железной руды - ${BUFF * ironOre / 100}")
 }
