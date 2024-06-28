@@ -1,11 +1,15 @@
 package org.example.lesson_3
 
 fun main() {
-    val initialName = "Андреева Татьяна Сергеевна"
-    val requestDate = 20
-    val changedName = "Сидорова Татьяна Сергеевна"
-    val changedAge = 22
+    var name = "Татьяна"
+    var surname = "Андреева"
+    var patronymic = "Сергеевна"
+    var age = 20
 
-    println("ФИО $initialName, возраст $requestDate")
-    println("ФИО $changedName, возраст $changedAge")
+    println("ФИО $surname $name $patronymic, возраст $age")
+
+    surname = "Сидорова"
+    age = 22
+
+    println("ФИО $surname $name $patronymic, возраст $age")
 }
